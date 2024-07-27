@@ -1,0 +1,19 @@
+.friendListInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.friendListName{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.isOnline{
+    color: green;
+}
+.isOffline{
+    color: red;
+}

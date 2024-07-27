@@ -1,0 +1,23 @@
+.transactions {
+  margin: 0 auto;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+.transactionsTitle {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.transactionsText {
+  border: 1px solid black;
+  color: white;
+  width: 150px;
+}
+
+.transactionsItems:nth-child(odd) {
+  background-color: rgba(128, 128, 128,0.4)
+}
+
+.transactionsValue {
+  border: 1px solid black;
+}
