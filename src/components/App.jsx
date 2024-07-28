@@ -26,7 +26,6 @@ function App() {
   useEffect(() => {
     if (totalFeedback !== 0) {
       const data = JSON.stringify(reviews);
-      console.log(data);
       localStorage.setItem('reviews', data);
     }
   }, [reviews, totalFeedback]);
